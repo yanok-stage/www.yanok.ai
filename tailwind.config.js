@@ -17,7 +17,10 @@ module.exports = {
         'site-gutter': {
           default: '5em',
         },
-        'container': '48rem',
+        'container': '80rem',
+      },
+      backgroundColor: {
+        black: 'rgb(8, 8, 8)',
       }
     },
   },
