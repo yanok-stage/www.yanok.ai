@@ -12,7 +12,14 @@ module.exports = {
     fontFamily: {
       'jost': ['Jost', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      spacing: {
+        'site-gutter': {
+          default: '5em',
+        },
+        'container': '48rem',
+      }
+    },
   },
   variants: {
     extend: {},
