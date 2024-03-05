@@ -18,4 +18,4 @@ COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN chmod 777 /usr/local/bin/entrypoint.sh
 
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
-CMD [ "bundle", "exec", "jekyll", "serve", "--force_polling", "-H", "0.0.0.0", "-P", "4000" ]
+CMD [ "bundle", "exec", "jekyll", "serve", "--livereload", "-H", "0.0.0.0", "-P", "4000" ]
