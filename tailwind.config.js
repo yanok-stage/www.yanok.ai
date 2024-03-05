@@ -9,6 +9,9 @@ module.exports = {
     './*.html',
   ],
   theme: {
+    fontFamily: {
+      'jost': ['Jost', 'sans-serif'],
+    },
     extend: {},
   },
   variants: {
