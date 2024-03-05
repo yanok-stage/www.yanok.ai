@@ -21,7 +21,12 @@ module.exports = {
       },
       backgroundColor: {
         black: 'rgb(8, 8, 8)',
-      }
+        brand: {
+          default: "rgb(0, 85, 212)",
+        },
+      },
+      colors: {
+      },
     },
   },
   variants: {
