@@ -12,11 +12,21 @@
     @apply transition ease-in;
     &-cta {
       @apply bg-brand-default border-none;
-      @apply hover: bg-brand-default hover:brightness-125;
+      @apply hover:bg-brand-default hover:brightness-125;
     }
   }
   .site-gutter {
     @apply px-3 md:px-10;
+  }
+
+  .navigation {
+    &-link {
+      @apply text-white transition duration-300;
+
+      &-underline {
+        @apply block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white;
+      }
+    }
   }
 }
 
