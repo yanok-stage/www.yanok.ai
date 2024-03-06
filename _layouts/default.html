@@ -9,11 +9,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
-  <body class="font-jost text-white bg-black">
+  <body class="font-jost antialiased text-white bg-black">
     <div class="flex flex-col items-center h-screen gap-5">
       <div class="site-gutter w-full max-w-container border-b border-gray-700">{% include navigation.html %}</div>
       <div class="grow w-full">{{ content }}</div>
-      <div class="site-gutter w-full max-w-container">{% include footer.html %}</div>
+      <div class="site-gutter w-full max-w-container border-t border-gray-700">{% include footer.html %}</div>
     </div>
   </body>
 </html>
