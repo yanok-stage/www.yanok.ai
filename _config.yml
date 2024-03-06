@@ -5,6 +5,14 @@ title: "" # the name of your site, e.g. ACME Corp.
 
 plugins:
   - jekyll-postcss
+  - jekyll-inline-svg
 
 postcss:
   cache: false
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - .jekyll-metadata
+  - node_modules/
+  - .bundle_cache
