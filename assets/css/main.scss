@@ -21,7 +21,7 @@
 
   .navigation {
     &-link {
-      @apply text-white transition duration-300;
+      @apply text-white transition duration-300 tracking-widest font-semibold;
 
       &-underline {
         @apply block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white;
