@@ -13,19 +13,10 @@
     <script type="text/plain" data-category="analytics" data-service="Google Analytics">
       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P8G3M4LK');</script>
     </script>
+    <script type="module" src="{{ "/assets/javascript/intersection.js" | relative_url }}"></script>
   </head>
   <body class="font-jost antialiased text-white bg-black">
     <script type="module" src="{{ "/assets/javascript/cookieconsent-config.js" | relative_url }}"></script>
-    <script>
-      CookieConsent.run({
-          language: {
-            default: 'en',
-            translations: {
-              'en': './en.json'
-            }
-          }
-        });
-    </script>
     <div class="flex flex-col items-center h-screen gap-5">
       <div class="site-gutter w-full max-w-container border-b border-gray-700">{% include navigation.html %}</div>
       <div class="grow w-full">{{ content }}</div>
