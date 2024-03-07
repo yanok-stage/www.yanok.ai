@@ -30,11 +30,12 @@
   }
   .benefits {
     &-item {
-      @apply flex flex-col items-center justify-start gap-5 flex-1 min-w-[200px];
+      @apply flex flex-col items-center justify-start gap-5 flex-1 max-w-[250px];
       & > h3 {
         @apply text-xl font-semibold text-center;
       }
       & > p {
+        @apply text-center;
       }
     }    
   }
