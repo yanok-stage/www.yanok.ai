@@ -4,8 +4,9 @@ title: "YanokAI | AI PaaS" # the name of your site, e.g. ACME Corp.
 
 
 plugins:
-  - jekyll-postcss
   - jekyll-inline-svg
+  - jekyll-postcss
+  - jekyll-sitemap
 
 postcss:
   cache: false

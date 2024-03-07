@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Happy Jekylling!"
+sitemap: false
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a ultricies velit, maximus faucibus tortor. Sed sagittis erat felis, ut ultricies enim luctus ac. Etiam non porttitor diam. Mauris ut velit tortor. In porta dui eu ligula posuere, ut rutrum lectus congue. Praesent dignissim mattis molestie. Aenean volutpat metus tortor, ac aliquet orci tincidunt eu. Integer vitae sollicitudin diam. Integer non lectus lacus.
