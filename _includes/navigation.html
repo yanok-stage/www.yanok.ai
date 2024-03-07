@@ -17,6 +17,22 @@
       Company
       <span class="navigation-link-underline"></span>
     </a>
+    <div class="group relative cursor-pointer">
+      <div class="flex items-center justify-between">
+        <a class="menu-hover text-base font-medium navigation-link group" onClick="">
+          Company
+          <span class="navigation-link-underline"></span>
+        </a>
+      </div>
+      <div class="invisible opacity-0 group-hover:visible group-hover:opacity-100 absolute z-50 w-full w-max ml-[-200%] transition-all duration-300" onClick="">
+        <div class="mt-5 border border-2 rounded-md bg-black shadow-xl grid grid-cols-2 gap-5 p-5">
+          <a class="block hover:underline">About</a>
+          <a class="block hover:underline">Careers</a>
+          <a class="block hover:underline">Diversity &amp; Inclusion</a>
+          <a class="block hover:underline">Partners</a>
+        </div>
+      </div>
+    </div>
   </div>
   <a href="/book-demo.html" class="btn font-semibold">
     Contact Us
