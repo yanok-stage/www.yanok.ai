@@ -5,6 +5,9 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+html, body { overflow-x: hidden; }
+body       { position: relative }
+
 @layer components {
   .btn {
     @apply border border-gray-700;
