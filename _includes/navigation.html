@@ -2,10 +2,26 @@
   <a href="/" class="grow text-xl font-bold flex flex-row gap-2 items-center">{% svg "assets/images/logo.svg" class="size-10 inline-block" %}<span>YanokAI</span></a>
   <div class="translate-x-full md:translate-x-0 absolute md:relative top-20 md:top-0 mt-[3px] md:mt-0 right-0 bottom-0 h-fit bg-black border-l border-l-gray-700 md:border-l-0 pt-5 md:pt-0 pl-10 md:pl-0 transition duration-300 z-50" id="menu">
     <div class="flex flex-col md:flex-row gap-7 items-start md:items-center">
-      <a href="#" class="navigation-link group">
-        Product
-        <span class="navigation-link-underline"></span>
-      </a>
+      <div class="group relative cursor-pointer">
+        <div class="flex items-center justify-between">
+          <a class="menu-hover text-base font-medium navigation-link group" onClick="">
+            Product
+            <span class="navigation-link-underline"></span>
+          </a>
+        </div>
+        <div
+          class="md:invisible md:opacity-0 group-hover:visible group-hover:opacity-100 relative md:absolute md:z-50 w-full w-max md:ml-[-200%] transition-all duration-300"
+          onClick="">
+          <div
+            class="md:mt-5 border-white border-0 md:border-2 rounded-md bg-black md:bg-white text-white md:text-black shadow-xl flex flex-col md:grid md:grid-cols-2 gap-2 gap-x-8 py-7 px-10">
+            <span class="font-semibold text-lg mb-2 col-span-2">Yanok Automation Platform</span>
+            <a class="block hover:underline">AutoWorkers</a>
+            <a class="block hover:underline">App Integrations</a>
+            <a class="block hover:underline">AI Integrations</a>
+            <a class="block hover:underline">Data &amp; Security</a>
+          </div>
+        </div>
+      </div>
       <div class="group relative cursor-pointer">
         <div class="flex items-center justify-between">
           <a class="menu-hover text-base font-medium navigation-link group" onClick="">
