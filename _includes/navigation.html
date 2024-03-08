@@ -50,10 +50,26 @@
           </div>
         </div>
       </div>
-      <a href="#" class="navigation-link group">
-        Resources
-        <span class="navigation-link-underline"></span>
-      </a>
+      <div class="group relative cursor-pointer">
+        <div class="flex items-center justify-between">
+          <a class="menu-hover text-base font-medium navigation-link group" onClick="">
+            Resources
+            <span class="navigation-link-underline"></span>
+          </a>
+        </div>
+        <div
+          class="md:invisible md:opacity-0 group-hover:visible group-hover:opacity-100 relative md:absolute md:z-50 w-full w-max md:ml-[-200%] transition-all duration-300"
+          onClick="">
+          <div
+            class="md:mt-5 border-white border-0 md:border-2 rounded-md bg-black md:bg-white text-white md:text-black shadow-xl flex flex-col md:grid md:grid-cols-2 gap-2 gap-x-8 py-7 px-10">
+            <span class="font-semibold text-lg mb-2 col-span-2">For Developers</span>
+            <a class="block hover:underline" href="{{ " /docs.html#get-started" | relative_url }}">Getting Started</a>
+            <a class="block hover:underline" href="{{ " /docs.html#docs" | relative_url }}">Docs</a>
+            <a class="block hover:underline" href="{{ " /docs.html#guides" | relative_url }}">Guides</a>
+            <a class="block hover:underline" href="{{ " /docs.html#references" | relative_url }}">API References</a>
+          </div>
+        </div>
+      </div>
       <div class="group relative cursor-pointer">
         <div class="flex items-center justify-between">
           <a class="menu-hover text-base font-medium navigation-link group" onClick="">
@@ -64,10 +80,10 @@
         <div class="md:invisible md:opacity-0 group-hover:visible group-hover:opacity-100 relative md:absolute md:z-50 w-full w-max md:ml-[-200%] transition-all duration-300" onClick="">
           <div class="md:mt-5 border-white border-0 md:border-2 rounded-md bg-black md:bg-white text-white md:text-black shadow-xl flex flex-col md:grid md:grid-cols-2 gap-2 gap-x-8 py-7 px-10">
             <span class="font-semibold text-lg mb-2 col-span-2">Who is Yanok?</span>
-            <a class="block hover:underline">About</a>
-            <a class="block hover:underline">Careers</a>
-            <a class="block hover:underline">Partners</a>
-            <a class="block hover:underline">Diversity &amp; Inclusion</a>
+            <a class="block hover:underline" href="{{ " /company.html" | relative_url }}">About</a>
+            <a class="block hover:underline" href="{{ " /company.html" | relative_url }}">Careers</a>
+            <a class="block hover:underline" href="{{ " /company.html" | relative_url }}">Partners</a>
+            <a class="block hover:underline" href="{{ " /company.html" | relative_url }}">Diversity &amp; Inclusion</a>
           </div>
         </div>
       </div>
