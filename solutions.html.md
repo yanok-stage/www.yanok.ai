@@ -1,7 +1,11 @@
 ---
-layout: default
+layout: page
 title: "Solutions"
 description: "Yanok works for you in every industry and role. Find out how we can help you."
 ---
 
-Yaonk Solutions
+Intro
+
+# By Industry
+
+# By Role
