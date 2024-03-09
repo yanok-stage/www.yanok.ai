@@ -9,6 +9,11 @@ html, body { overflow-x: hidden; }
 body       { position: relative }
 
 @layer components {
+  h1 {
+    @apply text-4xl font-bold;
+  }
+
+
   .btn {
     @apply border border-gray-700;
     @apply py-2 px-4 text-white hover:bg-gray-700;
