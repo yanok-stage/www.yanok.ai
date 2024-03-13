@@ -1,23 +1,27 @@
 ---
-layout: page
-title: "E-Commerce and Retails"
+layout: markdown
+title: "E-Commerce and Retails Use Cases and Solutions run on Yanok Platform"
 ---
 
 # E-Commerce and Retails Use Cases and Solutions run on Yanok Platform
 
 ## 1. Personalized Communication
-**Trigger Events**: Customer sign-ups, abandoned carts, seasonal promotions.  
-**Results**: Increased customer engagement, higher email open rates, stronger customer relationships.  
+
+**Trigger Events**: Customer sign-ups, abandoned carts, seasonal promotions.<br />
+**Results**: Increased customer engagement, higher email open rates, stronger customer relationships.<br />
 **KPIs**:
+
 - Email open rates.
 - Communication conversion rate.
 - Customer satisfaction scores (CSAT).
 - Repeat purchase rate.
 
 ## 2. Customer Support Automation
-**Trigger Events**: Customer queries, peak service hours, after-hours support.  
-**Results**: 24/7 customer support availability, reduced response delay, improved customer service efficiency.  
+
+**Trigger Events**: Customer queries, peak service hours, after-hours support.<br />
+**Results**: 24/7 customer support availability, reduced response delay, improved customer service efficiency.<br />
 **KPIs**:
+
 - Average response time.
 - Customer satisfaction rating (CSAT).
 - Resolution rate on first contact.
@@ -25,9 +29,11 @@ title: "E-Commerce and Retails"
 - Cost per query handled.
 
 ## 3. Customer Sentiment Analysis
-**Trigger Events**: Customer reviews, social media mentions, customer service interactions.  
-**Results**: Improved understanding of customer sentiment, actionable insights for product and service enhancements, stronger customer relationships.  
+
+**Trigger Events**: Customer reviews, social media mentions, customer service interactions.<br />
+**Results**: Improved understanding of customer sentiment, actionable insights for product and service enhancements, stronger customer relationships.<br />
 **KPIs**:
+
 - Improvement in customer sentiment over time.
 - Increase in positive social media mentions and reviews.
 - Reduction in customer churn rates.
@@ -35,9 +41,11 @@ title: "E-Commerce and Retails"
 - Engagement level improvements based on sentiment-driven strategies.
 
 ## 4. Predictive Inventory Management
-**Trigger Events**: Seasonal demand changes, shopping trends, supplier performance data.  
-**Results**: Optimized inventory levels, reduced holding costs, improved product availability, fewer stockouts or overstock situations.  
+
+**Trigger Events**: Seasonal demand changes, shopping trends, supplier performance data.<br />
+**Results**: Optimized inventory levels, reduced holding costs, improved product availability, fewer stockouts or overstock situations.<br />
 **KPIs**:
+
 - Reduction in out-of-stock incidents.
 - Decrease in overstock inventory.
 - Improved turnover rates of inventory.
@@ -45,9 +53,11 @@ title: "E-Commerce and Retails"
 - Accuracy of demand forecasting.
 
 ## 5. Dynamic Recommendations
-**Trigger Events**: Customer browsing patterns, purchase history, related product searches.  
-**Results**: Higher personalization in shopping experiences, increased sales through relevant product recommendations, enhanced customer loyalty, more upselling opportunties.  
+
+**Trigger Events**: Customer browsing patterns, purchase history, related product searches.<br />
+**Results**: Higher personalization in shopping experiences, increased sales through relevant product recommendations, enhanced customer loyalty, more upselling opportunties.<br />
 **KPIs**:
+
 - Increase in conversion rates through AI recommendations.
 - Uplift in average order value (AOV) due to personalized suggestions.
 - Growth in repeat customer purchases.

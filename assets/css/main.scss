@@ -9,10 +9,12 @@ html, body { overflow-x: hidden; }
 body       { position: relative }
 
 @layer components {
-  h1 {
-    @apply text-4xl font-bold;
-  }
+  h1 { @apply text-4xl font-bold; }
+  h2 { @apply text-3xl font-bold; }
+  h3 { @apply text-2xl font-bold; }
+  h4 { @apply text-xl font-bold; }
 
+  li { @apply list-disc ml-10; }
 
   .btn {
     @apply border border-gray-700;

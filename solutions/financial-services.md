@@ -1,13 +1,13 @@
 ---
-layout: page
-title: "Financial Services"
+layout: markdown
+title: "Financial Services Use Cases and Solutions run on Yanok Platform"
 ---
 
 # Financial Services Use Cases and Solutions run on Yanok Platform
 
 ## 1. AI-Driven Credit Scoring
-**Trigger Events**: Loan applications, credit limit increase requests, refinancing inquiries.  
-**Results**: More accurate risk assessments, personalized loan offerings, faster loan approval processes.  
+**Trigger Events**: Loan applications, credit limit increase requests, refinancing inquiries.<br />
+**Results**: More accurate risk assessments, personalized loan offerings, faster loan approval processes.<br />
 **KPIs**:
 - Improvement in loan approval rates.
 - Reduction in default rates.
@@ -16,8 +16,8 @@ title: "Financial Services"
 - Accuracy of AI-based credit risk assessments.
 
 ## 2. Intelligent Client Onboarding
-**Trigger Events**: Client application submission, document verification, KYC checks, external sources checks.  
-**Results**: Streamlined onboarding process, improved client satisfaction, faster account opening.  
+**Trigger Events**: Client application submission, document verification, KYC checks, external sources checks.<br />
+**Results**: Streamlined onboarding process, improved client satisfaction, faster account opening.<br />
 **KPIs**:
 - Reduction in onboarding time.
 - Improvement in client onboarding satisfaction scores.
@@ -26,16 +26,16 @@ title: "Financial Services"
 - Increase in Documentation quality
 
 ## 3. AI Client Profiling
-**Trigger Events**: Account activity, transactional behavior, client interaction with banking services.  
-**Results**: Detailed client profiles, improved targeting for services, enhanced customer relationship management.  
+**Trigger Events**: Account activity, transactional behavior, client interaction with banking services.<br />
+**Results**: Detailed client profiles, improved targeting for services, enhanced customer relationship management.<br />
 **KPIs**:
 - Increase in communication accuracy for target audience.
 - Revenue increase attributed to personalized financial product offerings.
 - Saved cost on account maintenance
 
 ## 4. Unstructured Data Analysis for Market Insights
-**Trigger Events**: Social media data, client emails, call center dialogues, market news.  
-**Results**: Rich insights from untapped data sources, better understanding of market sentiment, informed business strategy.  
+**Trigger Events**: Social media data, client emails, call center dialogues, market news.<br />
+**Results**: Rich insights from untapped data sources, better understanding of market sentiment, informed business strategy.<br />
 **KPIs**:
 - Increase in actionable insights.
 - Improvement in market sentiment understanding.

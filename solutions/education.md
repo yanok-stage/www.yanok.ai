@@ -1,13 +1,13 @@
 ---
 layout: page
-title: "Education"
+title: "Education Use Cases and Solutions run on Yanok Platform"
 ---
 
 # Education Use Cases and Solutions run on Yanok Platform
 
 ## 1. Educational Content
-**Trigger Events**: Course development, skill gap identification, course practice exercises.  
-**Results**: Customized learning experiences, increased engagement in learning, scalable educational content.   
+**Trigger Events**: Course development, skill gap identification, course practice exercises.<br />
+**Results**: Customized learning experiences, increased engagement in learning, scalable educational content.<br />
 **KPIs**:
 - Learner engagement metrics.
 - Completion rates for courses.
@@ -16,8 +16,8 @@ title: "Education"
 - Time to roll out new training modules.
 
 ## 2. Automated Essay Scoring and Feedback
-**Trigger Events**: Essay submissions, written assignments.
-**Results**: Timely, consistent, and more objective grading, personalized feedback for students, reduced grading workload for educators.  
+**Trigger Events**: Essay submissions, written assignments.<br />
+**Results**: Timely, consistent, and more objective grading, personalized feedback for students, reduced grading workload for educators.<br />
 **KPIs**:
 - Consistency in scoring across multiple essays.
 - Time saved in marking and feedback provision.
@@ -26,8 +26,8 @@ title: "Education"
 - Student perception of feedback helpfulness.
 
 ## 3. Personalized Learning Paths
-**Trigger Events**: Individual student performance data, learning preferences, course interaction patterns.  
-**Results**: Tailored learning experiences, improved student engagement, accelerated of learning outcomes.  
+**Trigger Events**: Individual student performance data, learning preferences, course interaction patterns.<br />
+**Results**: Tailored learning experiences, improved student engagement, accelerated of learning outcomes.<br />
 **KPIs**:
 - Improvement in student performance and grades.
 - Increased student engagement in learning activities.
@@ -36,8 +36,8 @@ title: "Education"
 - Student satisfaction rates with personalized learning experiences.
 
 ## 4. Enrollment and Administration
-**Trigger Events**: Application submissions, enrollment queries, administrative requests.  
-**Results**: Streamlined administrative processes, improved student and staff satisfaction, reduced overhead costs.  
+**Trigger Events**: Application submissions, enrollment queries, administrative requests.<br />
+**Results**: Streamlined administrative processes, improved student and staff satisfaction, reduced overhead costs.<br />
 **KPIs**:
 - Reduction in time to process admissions and queries.
 - Decrease in administrative costs.
@@ -46,8 +46,8 @@ title: "Education"
 - Increased % of automated tasks.
 
 ## 5. AI Student Support
-**Trigger Events**: Student queries on coursework, administrative questions, exam preparations, new reference materials.  
-**Results**: 24/7 support availability, immediate response to student inquiries, enhanced student experience.
+**Trigger Events**: Student queries on coursework, administrative questions, exam preparations, new reference materials.<br />
+**Results**: 24/7 support availability, immediate response to student inquiries, enhanced student experience.<br />
 **KPIs**:
 - Reduction in response time to student queries.
 - Volume of queries successfully resolved by AI.
