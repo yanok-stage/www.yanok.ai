@@ -29,10 +29,15 @@ body       { position: relative }
   .btn {
     @apply border border-gray-700;
     @apply py-2 px-4 text-white text-center hover:bg-gray-700;
+    @apply flex items-center justify-center;
     @apply transition ease-in;
     &-cta {
       @apply bg-brand-default border-none font-semibold;
       @apply hover:bg-brand-default hover:brightness-125;
+    }
+    &-xl {
+      @apply text-xl;
+      @apply py-3 px-6;
     }
   }
   .site-gutter {
