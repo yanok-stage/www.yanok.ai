@@ -14,6 +14,7 @@ Yanok stands at the forefront of workflow automation, offering a suite of soluti
 * [Communication](/solutions/communication.html)
 * [Cybersecurity](/solutions/cybersecurity.html)
 * [E-commerce & Retail](/solutions/ecommerce-retail.html)
+* [Education](/solutions/education.html)
 * [Financial Services](/solutions/financial-services.html)
 * [Healthcare](/solutions/healthcare.html)
 * [Legal](/solutions/legal.html)
