@@ -14,7 +14,12 @@ body       { position: relative }
   h3 { @apply text-2xl font-bold; }
   h4 { @apply text-xl font-bold; }
 
-  li { @apply list-disc ml-10; }
+  ol {
+    li { @apply list-decimal ml-10; }
+  }
+  ul {
+    li { @apply list-disc ml-10; }
+  }
 
   .btn {
     @apply border border-gray-700;
