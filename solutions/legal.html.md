@@ -1,5 +1,5 @@
 ---
-layout: markdown
+layout: solutions
 title: "Legal Industry Use Cases and Solutions run on Yanok Platform"
 ---
 

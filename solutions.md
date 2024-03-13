@@ -1,5 +1,5 @@
 ---
-layout: markdown
+layout: solutions
 title: "Workflow Automation Solution for Every Industry and Role"
 description: "Yanok works for you in every industry and role. Find out how we can help you."
 ---

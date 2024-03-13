@@ -1,5 +1,5 @@
 ---
-layout: markdown
+layout: solutions
 title: "E-Commerce and Retails Use Cases and Solutions run on Yanok Platform"
 ---
 

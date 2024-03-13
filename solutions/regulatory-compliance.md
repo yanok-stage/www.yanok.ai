@@ -1,5 +1,5 @@
 ---
-layout: markdown
+layout: solutions
 title: "Regulatory and Compliance Solutions on Yanok Platform"
 ---
 

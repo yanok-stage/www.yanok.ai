@@ -1,5 +1,5 @@
 ---
-layout: markdown
+layout: solutions
 title: "Communication Use Cases and Solutions run on Yanok Platform"
 ---
 

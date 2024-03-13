@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: solutions
 title: "Human Resources Use Cases and Solutions run on Yanok Platform"
 ---
 
