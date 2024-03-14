@@ -1,0 +1,170 @@
+---
+layout: integration
+sitemap: false
+title: "CloudBlue Commerce"
+brand_color: "rgba(255, 255, 255, 1)"
+categories: ["App Builder"]
+description: "CloudBlue is a modular, scalable, extensible and secure carrier-grade platform that enables the profitable, end-to-end delivery of services, including onboarding, automation, aggregation, distribution, go-to-market and support."
+url: ""
+---
+<div class="flex flex-col items-center pt-10">
+  <div class="flex flex-row gap-12">
+    <img class="size-20" src="/assets/images/integrations/cloudblue-commerce.png" />
+    <div class="flex items-center justify-between grow">
+      <h1>
+        CloudBlue Commerce Integrations
+        <span class="block max-w-full h-0.5" style="background-color: rgba(255, 255, 255, 1)"></span>
+      </h1>
+    </div>
+  </div>
+  <p class="max-w-3xl mt-8 text-center">CloudBlue is a modular, scalable, extensible and secure carrier-grade platform that enables the profitable, end-to-end delivery of services, including onboarding, automation, aggregation, distribution, go-to-market and support.</p>
+
+  <div class="flex flex-col items-center mt-20">
+    <h2 class="text-2xl font-bold">Triggers</h2>
+    <div class="flex flex-col gap-5">
+      <div class="flex flex-col items-start">
+  <div class="font-semibold">New or Updated Service Plan</div>
+  <div>Triggers when a service plan is created or updated in CloudBlue Commerce.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">New or Updated Subscription</div>
+  <div>Triggers when a new subscription is created/updated in CloudBlue Commerce or its status is changed to Activated, Administrative Hold, Credit Hold, Full Hold, or In Grace.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">New RDE Report</div>
+  <div>Triggers when a rated data report is generated in CloudBlue Commerce.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">New or Updated Plan Category</div>
+  <div>Triggers when a plan category is created or updated in CloudBlue Commerce.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">New or Updated Order</div>
+  <div>Triggers when an order (Sales Order/Change Order/Billing Order/Cancel Order/Renew Order) is created in CloudBlue Commerce. It also includes filter options to select order type and status.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">New Customer</div>
+  <div>Triggers when a customer is created in CloudBlue Commerce.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">New Customer User</div>
+  <div>Triggers when a customer user is created in CloudBlue Commerce.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Updated Customer User</div>
+  <div>Triggers when a customer user information is updated in CloudBlue Commerce.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Updated Customer</div>
+  <div>Triggers when a customer information is updated in CloudBlue Commerce.</div>
+</div>
+
+    </div>
+  </div>
+
+  <div class="flex flex-col items-center mt-20">
+    <h2 class="text-2xl font-bold">Actions</h2>
+    <div class="flex flex-col gap-5">
+      <div class="flex flex-col items-start">
+  <div class="font-semibold">Create and Schedule RDE Job</div>
+  <div>This action will create and schedule RDE job in CBC platform.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Cancel Order</div>
+  <div>Cancels an existing subscription in CloudBlue Commerce.A new Cancel Order is placed in CloudBlue Commerce for the subscription linked with the provided Order Number.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Change Order</div>
+  <div>Updates the existing subscription in CloudBlue Commerce. A new Change Order is placed in CloudBlue Commerce for the subscription linked with the provided Order Number. The subscription update includes a change in its resources and their quantities.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Change Subscription State</div>
+  <div>Changes subscription status to Administrative Hold or Active.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Create Customer</div>
+  <div>This action creates a new Customer account and a user under it with administrator privileges in CloudBlue Commerce.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Create New Customer User</div>
+  <div>Creates a new Customer user in CloudBlue Commerce.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Delete User</div>
+  <div>Deletes the Customer user in CloudBlue Commerce, unless it's the last admin user.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Renew Order</div>
+  <div>Renews the existing subscription in CloudBlue Commerce. A new Renew Order is placed in CloudBlue Commerce for the subscription linked with the provided Order Number.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Create New Sales Order</div>
+  <div>Creates a new sales order in CloudBlue Commerce. The external system can pass an order reference to map the corresponding order object to the order object in CloudBlue Commerce.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Update Customer</div>
+  <div>This action updates a Customer account in CloudBlue Commerce.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Update Customer User</div>
+  <div>Updates the Customer user information in CloudBlue Commerce.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Find Customer</div>
+  <div>Finds Customer records in CloudBlue Commerce. Allows filtering the records with the Account ID and/or the external system ID. If no filter is passed, the last created Customer record is returned.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Find Customer User</div>
+  <div>Finds Customer user records in CloudBlue Commerce. Allows filtering the records with the Customer ID and User Type.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Find Order</div>
+  <div>Finds orders in CloudBlue Commerce. Allows filtering the records with the CloudBlue Commerce Order Number and/or the external system Order ID. If no filter is passed, the last created order record is returned.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Find Service Information</div>
+  <div>Finds and returns the service-specific information of a subscription from the CloudBlue Commerce OSS. For Connect-based services, this information includes the activation parameter URL, activation tile data, and so on.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Find Subscription</div>
+  <div>Finds subscriptions in CloudBlue Commerce. Allows filtering the records with the CloudBlue Commerce Order Number and/or the external system Order ID. If no filter is passed, the last created subscription record is returned.</div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+<div class="site-gutter max-w-container mx-auto flex flex-col items-center gap-5 py-14">
+  <p><span class="font-bold">Yanok Platform</span> is a powerhouse in web automation, acting as the essential
+    connector to a multitude of web apps and
+    services, seamlessly enabling them to collaborate.</p>
+  <p>Create seamless integration with an intuitive no-code drag-and-drop interface.</p>
+  <div class="block pt-5 flex flex-col md:flex-row gap-5 justify-center items-center">
+    <a href="https://app.yanok.xyz/quickstarts/business/new" class="btn btn-cta btn-xl">Automate with Yanok</a>
+    <a href="/book-demo.html" class="btn ">Book a Demo</a>
+  </div>
+</div>
+

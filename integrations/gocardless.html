@@ -1,0 +1,80 @@
+---
+layout: integration
+sitemap: false
+title: "GoCardless"
+brand_color: "rgba(241, 242, 82, 1)"
+categories: ["Payment Processing"]
+description: "GoCardless is a payments platform helping businesses collect payments directly from customer bank accounts."
+url: ""
+---
+<div class="flex flex-col items-center pt-10">
+  <div class="flex flex-row gap-12">
+    <img class="size-20" src="/assets/images/integrations/gocardless.png" />
+    <div class="flex items-center justify-between grow">
+      <h1>
+        GoCardless Integrations
+        <span class="block max-w-full h-0.5" style="background-color: rgba(241, 242, 82, 1)"></span>
+      </h1>
+    </div>
+  </div>
+  <p class="max-w-3xl mt-8 text-center">GoCardless is a payments platform helping businesses collect payments directly from customer bank accounts.</p>
+
+  <div class="flex flex-col items-center mt-20">
+    <h2 class="text-2xl font-bold">Triggers</h2>
+    <div class="flex flex-col gap-5">
+      <div class="flex flex-col items-start">
+  <div class="font-semibold">IBP or Direct Debit Mandate: Created</div>
+  <div>Triggers when a new instant payment (Instant Bank Pay) or mandate is being created.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">IBP or Direct Debit Mandate: Fulfilled</div>
+  <div>Triggers when an instant payment (Instant Bank Pay) or a mandate is successfully created.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Direct Debit Mandate: Cancelled</div>
+  <div>Triggers when a mandate is cancelled.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Payment: Failed</div>
+  <div>Triggers when a payment is failed.</div>
+</div>
+
+    </div>
+  </div>
+
+  <div class="flex flex-col items-center mt-20">
+    <h2 class="text-2xl font-bold">Actions</h2>
+    <div class="flex flex-col gap-5">
+      <div class="flex flex-col items-start">
+  <div class="font-semibold">Create Direct Debit Mandate</div>
+  <div>Creates Direct Debit Mandate on a customer's bank account. This is a prerequisite for creating payments against a mandate.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Create Instant Bank Payment</div>
+  <div>Creates Instant Bank Payment. Note: currently available for the UK and Germany only.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Create Payment</div>
+  <div>Creates a Payment against an existing Customer's Mandate.</div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+<div class="site-gutter max-w-container mx-auto flex flex-col items-center gap-5 py-14">
+  <p><span class="font-bold">Yanok Platform</span> is a powerhouse in web automation, acting as the essential
+    connector to a multitude of web apps and
+    services, seamlessly enabling them to collaborate.</p>
+  <p>Create seamless integration with an intuitive no-code drag-and-drop interface.</p>
+  <div class="block pt-5 flex flex-col md:flex-row gap-5 justify-center items-center">
+    <a href="https://app.yanok.xyz/quickstarts/business/new" class="btn btn-cta btn-xl">Automate with Yanok</a>
+    <a href="/book-demo.html" class="btn ">Book a Demo</a>
+  </div>
+</div>
+

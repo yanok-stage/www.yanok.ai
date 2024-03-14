@@ -1,0 +1,185 @@
+---
+layout: integration
+sitemap: false
+title: "Upodi"
+brand_color: "rgba(112, 67, 255, 1)"
+categories: ["Payment Processing"]
+description: "Upodi is a subscription and billing management platform."
+url: ""
+---
+<div class="flex flex-col items-center pt-10">
+  <div class="flex flex-row gap-12">
+    <img class="size-20" src="/assets/images/integrations/upodi.png" />
+    <div class="flex items-center justify-between grow">
+      <h1>
+        Upodi Integrations
+        <span class="block max-w-full h-0.5" style="background-color: rgba(112, 67, 255, 1)"></span>
+      </h1>
+    </div>
+  </div>
+  <p class="max-w-3xl mt-8 text-center">Upodi is a subscription and billing management platform.</p>
+
+  <div class="flex flex-col items-center mt-20">
+    <h2 class="text-2xl font-bold">Triggers</h2>
+    <div class="flex flex-col gap-5">
+      <div class="flex flex-col items-start">
+  <div class="font-semibold">New Contact</div>
+  <div>Triggers when a new contact is created in Upodi.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">New Customer</div>
+  <div>Triggers when a new customer is created in Upodi.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">New Invoice</div>
+  <div>Triggers when a new invoice is created by Upodi or manually.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">New Subscription</div>
+  <div>Triggers when a new subscription is created.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Updated Contact</div>
+  <div>Triggers when a contact is updated in Upodi.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Updated Customer</div>
+  <div>Triggers when a customer is updated in Upodi.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Updated Invoice</div>
+  <div>Triggers when an invoice is updated in Upodi.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Updated Subscription</div>
+  <div>Triggers when a subscription is updated in Upodi.</div>
+</div>
+
+    </div>
+  </div>
+
+  <div class="flex flex-col items-center mt-20">
+    <h2 class="text-2xl font-bold">Actions</h2>
+    <div class="flex flex-col gap-5">
+      <div class="flex flex-col items-start">
+  <div class="font-semibold">Activate Subscription</div>
+  <div>Activate a subscription to start invoicing automatically.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Add Optional Charge to Subscription</div>
+  <div>Add an optional charge to a draft or active subscription</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Book Draft Invoice or Credit Note</div>
+  <div>Book a draft invoice or credit note in Upodi</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Cancel Subscription</div>
+  <div>Cancels an active subscription</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Create Contact for a Customer</div>
+  <div>Create a new contact for a customer</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Create Customer</div>
+  <div>Create a new customer in Upodi</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Create Payment Method for Customer</div>
+  <div>Create a Payment Method for a Customer</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Create Subscription</div>
+  <div>Create a new subscription for a customer</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Credit Invoice</div>
+  <div>Credit an invoice in Upodi. Creates a draft credit note which can then be booked</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Switch Product Plan for a Subscription</div>
+  <div>Perform an immediate switch plan for the subscription from one Product Plan to another. If you would rather want a switch in the future on a set date check SwitchToPlanID on Subscription Update. If the change incurs an invoice the invoice will be returned here.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Update Contact</div>
+  <div>Updates a contact</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Update Customer</div>
+  <div>Updates a customer</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Update Subscription</div>
+  <div>Update a subscription for a customer</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Create a Change to a Charge</div>
+  <div>When the subscription is created all charges will have the default quantities and prices. If you want to change them make sure to update them before you activate the subscription or update them along the way if what the customer purchases changes. If the change incurs an invoice the invoice will be returned here.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Find Charges on Subscription</div>
+  <div>Finds the charges on the subscription. Charges are products available on the subscription. Set quantity on the charges to subscribe the customer to the product.</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Find Charges for a Product Plan</div>
+  <div>Find charges on a product plan</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Find Contact</div>
+  <div>Find a contact for a customer optionally specifying a type</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Find Customer</div>
+  <div>Finds a customer using accountnumber or ID</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Find Invoice</div>
+  <div>Find a specific invoice and its lines</div>
+</div>
+
+<div class="flex flex-col items-start">
+  <div class="font-semibold">Find Subscription</div>
+  <div>Find a specific subscription</div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+<div class="site-gutter max-w-container mx-auto flex flex-col items-center gap-5 py-14">
+  <p><span class="font-bold">Yanok Platform</span> is a powerhouse in web automation, acting as the essential
+    connector to a multitude of web apps and
+    services, seamlessly enabling them to collaborate.</p>
+  <p>Create seamless integration with an intuitive no-code drag-and-drop interface.</p>
+  <div class="block pt-5 flex flex-col md:flex-row gap-5 justify-center items-center">
+    <a href="https://app.yanok.xyz/quickstarts/business/new" class="btn btn-cta btn-xl">Automate with Yanok</a>
+    <a href="/book-demo.html" class="btn ">Book a Demo</a>
+  </div>
+</div>
+

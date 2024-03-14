@@ -7,4 +7,3 @@ node_modules
 vendor/
 .DS_Store
 .bundle_cache
-integrations
