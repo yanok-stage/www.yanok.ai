@@ -1,8 +1,8 @@
 require 'yaml'
 require 'fileutils'
 require 'active_hash'
-require_relative 'models/integration'
-Dir[File.join(__dir__, 'models/integration', '*.rb')].each do |file|
+require_relative '../models/integration'
+Dir[File.join(__dir__, '../models/integration', '*.rb')].each do |file|
   require file
 end
 

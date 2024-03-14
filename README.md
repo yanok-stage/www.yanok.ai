@@ -8,4 +8,4 @@
 
 ## Generating Integration Pages
 
-`docker run --rm -p "4000:4000" -v "$(pwd):/site" -v "$(pwd)/.bundle_cache:/usr/local/bundle/" -it www.yanok.ai bundle exec ruby generate_integrations.rb`
+`docker run --rm -p "4000:4000" -v "$(pwd):/site" -v "$(pwd)/.bundle_cache:/usr/local/bundle/" -it www.yanok.ai bundle exec ruby generate_integration_pages.rb`
