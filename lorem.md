@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: markdown
 title: "Happy Jekylling Test!"
 sitemap: false
 ---
