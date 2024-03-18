@@ -63,16 +63,6 @@ body       { position: relative }
       }
     }
   }
-
-  .hero {
-    @apply bg-none;
-    @screen md {
-      background-image: url("/assets/images/bird.png");
-      background-position: 120% 10%;
-      background-repeat: no-repeat;
-      background-size: contain;
-    }
-  }
 }
 
 @layer utilities {
