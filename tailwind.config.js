@@ -21,7 +21,7 @@ module.exports = {
         'container': '80rem',
       },
       backgroundColor: {
-        black: 'rgb(8, 8, 8)',
+        black: 'rgb(30, 30, 30)',
         brand: {
           default: "rgb(0, 85, 212)",
         },
