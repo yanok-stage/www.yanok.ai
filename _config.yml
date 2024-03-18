@@ -6,6 +6,7 @@ title: "Yanok AI | AI PaaS" # the name of your site, e.g. ACME Corp.
 plugins:
   - jekyll-inline-svg
   - jekyll-postcss
+  - jekyll-redirect-from
   - jekyll-sitemap
 
 postcss:
