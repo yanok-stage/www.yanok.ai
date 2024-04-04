@@ -3,6 +3,7 @@
   <head>{% include head.html %}</head>
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
   <body class="font-jost antialiased text-white bg-black">
+    {% include gtm_body.html %}
     <script type="module" src="{{ "/assets/javascript/cookieconsent-config.js" | relative_url }}"></script>
     <div class="flex flex-col items-center h-screen gap-5">
       <div class="site-gutter w-full max-w-container border-b border-gray-700">{% include navigation.html %}</div>
