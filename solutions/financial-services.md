@@ -37,5 +37,5 @@ title: "Financial Services Use Cases and Solutions run on Yanok Platform"
 **Trigger Events**: Social media data, client emails, call center dialogues, market news.<br />
 **Results**: Rich insights from untapped data sources, better understanding of market sentiment, informed business strategy.<br />
 **KPIs**:
-- Increase in actionable insights.
-- Improvement in market sentiment understanding.
+- More actionable insights.
+- Deeper market sentiment understanding.

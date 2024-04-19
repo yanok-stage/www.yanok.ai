@@ -41,7 +41,7 @@ title: "Regulatory and Compliance Solutions on Yanok Platform"
 - Reduction in non-compliance incidents.
 - Employee feedback on policy understanding and implementation.
 
-## 2. Compliance and other mandatory training automated updates
+## 4. Compliance and other mandatory training automated updates
 
 **Trigger Events**: Introduction of new compliance requirements, ongoing employee onboarding, periodic refreshers
 **Results**: Consistently high levels of staff compliance knowledge, improved risk management, enhanced corporate integrity.<br />

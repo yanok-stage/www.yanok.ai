@@ -42,7 +42,7 @@ title: "Information Technology Use Cases and Solutions run on Yanok Platform"
 - Number of queries resolved without human intervention.
 
 
-## 5. Software Testing
+## 4. Code Testing
 
 **Trigger Events**: New software builds, application updates, feature enhancements.<br />
 **Results**: High testing accuracy, reduced testing cycle times, early bug detection and resolution.<br />
