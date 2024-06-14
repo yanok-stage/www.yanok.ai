@@ -10,6 +10,9 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: [master]
+  pull_request:
+    branches:
+      - '*'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -51,6 +54,7 @@ jobs:
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
+        if: github.ref == 'refs/heads/master'
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
 
@@ -61,6 +65,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
+    if: github.ref == 'refs/heads/master'
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
