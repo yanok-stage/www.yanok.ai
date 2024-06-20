@@ -21,12 +21,17 @@ module.exports = {
         'container': '80rem',
       },
       backgroundColor: {
-        black: 'rgb(30, 30, 30)',
+        black: 'rgb(2, 16, 49)',
         brand: {
-          default: "rgb(0, 85, 212)",
+          default: "#0f659b",
         },
       },
       colors: {
+        blue: "#0f659b",
+        teal: "#0abab5",
+        medBlue: 'rgb(4, 57, 91)',
+        darkBlue: 'rgb(2, 16, 49)',
+        darkerBlue: 'rgb(0, 5, 16)',
       },
     },
   },
